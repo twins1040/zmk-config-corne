@@ -91,7 +91,16 @@
   &kp Q  &kp W  &kp E         &kp R      &kp T      &trans  &trans  &trans  &trans  &trans
   &kp A  &kp S  &kp D         &kp F      &kp G      &trans  &trans  &trans  &trans  &trans
   &kp Z  &kp X  &kp C         &kp V      &kp B      &trans  &trans  &trans  &trans  &trans
-                &lt 4 ESCAPE  &kp SPACE  &kp TAB    &trans  &trans  &trans
+                &lt 6 ESCAPE  &kp SPACE  &kp TAB    &trans  &trans  &trans
+            >;
+        };
+
+        game_num {
+            bindings = <
+  &kp LBKT   &kp N7  &kp N8  &kp N9  &kp RBKT     &trans  &trans  &trans  &trans  &trans
+  &kp SEMI   &kp N4  &kp N5  &kp N6  &kp EQUAL    &trans  &trans  &trans  &trans  &trans
+  &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp FSLH     &trans  &trans  &trans  &trans  &trans
+                     &trans  &trans  &trans       &trans  &trans  &trans
             >;
         };
     };
