@@ -88,19 +88,10 @@
 
         game {
             bindings = <
-  &kp Q  &kp W  &kp E   &kp R        &kp T     &trans  &trans  &trans  &trans  &trans
-  &kp A  &kp S  &kp D   &kp F        &kp G     &trans  &trans  &trans  &trans  &trans
-  &kp Z  &kp X  &kp C   &kp V        &kp B     &trans  &trans  &trans  &trans  &trans
-                &trans  &lt 6 SPACE  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        game_num {
-            bindings = <
-  &trans  &kp N1  &kp N2  &kp N3  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &kp N4  &kp N5  &kp N6  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &kp N7  &kp N8  &kp N9  &trans    &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans    &trans  &trans  &trans
+  &kp Q  &kp W  &kp E         &kp R      &kp T      &trans  &trans  &trans  &trans  &trans
+  &kp A  &kp S  &kp D         &kp F      &kp G      &trans  &trans  &trans  &trans  &trans
+  &kp Z  &kp X  &kp C         &kp V      &kp B      &trans  &trans  &trans  &trans  &trans
+                &lt 4 ESCAPE  &kp SPACE  &kp TAB    &trans  &trans  &trans
             >;
         };
     };
