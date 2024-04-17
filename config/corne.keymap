@@ -11,9 +11,9 @@
 #include <dt-bindings/zmk/outputs.h>
 
 &mt {
-    flavor = "balanced";
-    tapping-term-ms = <200>;
-    quick-tap-ms = <175>;
+    flavor = "tap-preferred";
+    tapping-term-ms = <150>;
+    quick-tap-ms = <125>;
 };
 
 &lt {
