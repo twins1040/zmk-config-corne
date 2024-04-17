@@ -4,10 +4,10 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
 
 &mt {
@@ -73,7 +73,7 @@
         sym {
             bindings = <
   &kp LS(LBRC)   &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RBRC)     &trans  &trans  &trans  &trans  &trans
-  &kp LS(COLON)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp RCTRL      &kp LS(PLUS)     &trans  &trans  &trans  &trans  &trans
+  &kp LS(COLON)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp CARET      &kp LS(PLUS)     &trans  &trans  &trans  &trans  &trans
   &kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &kp LS(PIPE)     &trans  &trans  &trans  &trans  &trans
                                &kp LS(LPAR)   &kp LS(RPAR)   &kp LS(UNDER)    &trans  &trans  &trans
             >;
