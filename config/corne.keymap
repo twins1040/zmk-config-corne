@@ -5,11 +5,13 @@
  */
 
 #include <behaviors/mouse_keys.dtsi>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &mt {
     flavor = "balanced";
@@ -53,10 +55,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-  &kp Q        &kp W         &kp E        &kp R        &kp T        &kp Y        &kp U            &kp I           &kp O         &kp P
-  &mt LSHFT A  &rpi LCTRL S  &rpi LALT D  &rpi LGUI F  &kp G        &kp H        &rpi LGUI J      &rpi LALT K     &rpi LCTRL L  &mt LSHFT SINGLE_QUOTE
-  &kp Z        &kp X         &kp C        &kp V        &kp B        &kp N        &kp M            &kp COMMA       &kp DOT       &kp FSLH
-                             &lt 5 ESC    &lt 1 SPACE  &lt 2 TAB    &lt 3 ENTER  &lt 4 BACKSPACE  &kp LANGUAGE_1
+  &kp Q        &rpi LCTRL W  &rpi LEFT_ALT E  &kp R        &kp T        &kp Y        &kp U            &rpi LEFT_ALT I  &rpi LCTRL O  &kp P
+  &mt LSHFT A  &rpi LCTRL S  &rpi LALT D      &rpi LGUI F  &kp G        &kp H        &rpi LGUI J      &rpi LALT K      &rpi LCTRL L  &mt LSHFT SINGLE_QUOTE
+  &kp Z        &kp X         &kp C            &kp V        &kp B        &kp N        &kp M            &kp COMMA        &kp DOT       &kp FSLH
+                             &lt 5 ESC        &lt 1 SPACE  &lt 2 TAB    &lt 3 ENTER  &lt 4 BACKSPACE  &kp LANGUAGE_1
             >;
         };
 
