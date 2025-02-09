@@ -55,7 +55,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-  &kp Q        &rpi LCTRL W  &rpi LEFT_ALT E  &kp R        &kp T        &kp Y        &kp U            &rpi LEFT_ALT I  &rpi LCTRL O  &kp P
+  &kp Q        &rpi LG(LA(LC(LSHFT))) W  &rpi LG(LA(LCTRL)) E  &kp R        &kp T        &kp Y        &kp U            &rpi LG(LA(LCTRL)) I  &rpi LG(LA(LC(LSHFT))) O  &kp P
   &mt LSHFT A  &rpi LCTRL S  &rpi LALT D      &rpi LGUI F  &kp G        &kp H        &rpi LGUI J      &rpi LALT K      &rpi LCTRL L  &mt LSHFT SINGLE_QUOTE
   &kp Z        &kp X         &kp C            &kp V        &kp B        &kp N        &lt 6 M            &kp COMMA        &kp DOT       &kp FSLH
                              &lt 5 ESC        &lt 1 SPACE  &lt 2 TAB    &lt 3 ENTER  &lt 4 BACKSPACE  &kp LANGUAGE_1
