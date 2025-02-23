@@ -21,8 +21,8 @@
 
 &lt {
     flavor = "balanced";
-    tapping-term-ms = <150>;
-    quick-tap-ms = <150>;
+    tapping-term-ms = <180>;
+    quick-tap-ms = <180>;
 };
 
 / {
@@ -37,8 +37,8 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            quick-tap-ms = <150>;
+            tapping-term-ms = <180>;
+            quick-tap-ms = <180>;
             require-prior-idle-ms = <120>;
             flavor = "balanced";
         };
