@@ -16,13 +16,13 @@
 &mt {
     flavor = "balanced";
     tapping-term-ms = <150>;
-    quick-tap-ms = <150>;
+    quick-tap-ms = <200>;
 };
 
 &lt {
     flavor = "balanced";
-    tapping-term-ms = <180>;
-    quick-tap-ms = <180>;
+    tapping-term-ms = <150>;
+    quick-tap-ms = <200>;
 };
 
 / {
@@ -38,8 +38,8 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <180>;
-            quick-tap-ms = <180>;
-            require-prior-idle-ms = <120>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <90>;
             flavor = "balanced";
         };
     };
